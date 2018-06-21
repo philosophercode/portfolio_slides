@@ -4,14 +4,52 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
+
+
+    <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"> -->
+
+            
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="./style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="./js/jquery.fullPage.js"></script>
     <script src="./js/main.js"></script>
 </head>
 <body>
-    <div class="container">
-
+    <!-- <div id="navbar">
+    </div> -->
+    <ul id="navbar">
+        <li data-menuanchor="page1"><a href="#page1" class="w3-button w3-round">About</a></li>
+        <li data-menuanchor="page2"><a href="#page2" class="w3-button w3-round">Portfolio</a></li>
+        <li data-menuanchor="page3"><a href="#page3/slide3" class="w3-button w3-round">Skills</a></li>
+        <li data-menuanchor="page4"><a href="#page4" class="w3-button w3-round">Contact</a></li>
+    </ul>
+    <!-- <ul id="navbar">
+        <li><a class="button" href="">Home</a></li>
+        <li><a class="button" href="#page4/slide3">Slide 3</a></li>
+        <li><a class="button" href="#page2">Page 2</a></li>
+        <li><a class="button" href="#page3">Page 3</a></li>
+        <li><a class="button" href="#page4">Page 4</a></li>
+    </ul> -->
+    <div id="fullpage">
+        <div class="section" data-anchor="page1" style="background-color: blue">Some section</div>
+        <div class="section" data-anchor="page2" style="background-color: royalblue">Some section</div>
+        <div class="section" data-anchor="page4">
+            <div class="slide" data-anchor="slide1" style="background-color: yellow"> Slide 1 </div>
+            <div class="slide" data-anchor="slide2" style="background-color: orange"> Slide 2 </div>
+            <div class="slide" data-anchor="slide3" style="background-color: orangered"> Slide 3 </div>
+            <div class="slide" data-anchor="slide4" style="background-color: olivedrab"> Slide 4 </div>
+        </div>
+        <div class="section" data-anchor="page3" style="background-color: red">Some section</div>
     </div>
-    
 </body>
 </html>
