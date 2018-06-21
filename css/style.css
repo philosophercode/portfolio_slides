@@ -18,14 +18,16 @@ body {
 }
 
 a {
+    font-weight: 300;
     text-decoration: none;
-    color: black;
+    color: white !important;
+    text-shadow: 0px 0px 2px #000000;
 }
 
 .active > a {
-    font-weight: 700;
-    background-color: green;
+    font-weight: bold;
 }
+
 
 .fp-slidesNav{
     display: flex;
