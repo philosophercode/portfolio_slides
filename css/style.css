@@ -38,11 +38,27 @@ a {
 .container{
     display: flex !important;
     justify-content: space-around;
+
 }
 
 
 .box {
     float: left;
     height: 100%;
-    width: 50%
+    width: 50%;
+    color: white;
+}
+
+#bio {
+    background-image: url('.././assets/honeycomb_blur.png');
+    background-size: cover;
+    /* filter: blur(4px); */
+}
+
+h4 > a {
+    color: #e7bf43 !important;
+}
+
+#bio-desc{
+    background-color: #f09941;
 }
