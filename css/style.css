@@ -19,7 +19,6 @@ body {
     overflow: hidden;
     /* background-color: #333; */
     /* position: fixed; */
-    width: 100%;
     display: flex;
     justify-content: space-around;
     text-transform: uppercase;
@@ -33,4 +32,9 @@ a {
 .active > a {
     font-weight: 700;
     background-color: green;
+}
+
+.fp-slidesNav{
+    display: flex;
+    justify-content: space-around;
 }
