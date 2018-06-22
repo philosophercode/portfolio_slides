@@ -1,5 +1,6 @@
-body {
+* {
     font-family: 'Lato', sans-serif;
+    color: black;
 }
 
 #navbar {
@@ -17,15 +18,18 @@ body {
     text-transform: uppercase;
 }
 
-a {
+li > a {
     font-weight: 300;
+    font-size: 18px;
     text-decoration: none;
-    color: white !important;
-    text-shadow: 0px 0px 2px #000000;
+    /* color: white !important; */
+    opacity: 0.7;
 }
 
 .active > a {
-    font-weight: bold;
+    font-weight: 900;
+    /* text-shadow: 0px 0px 5px goldenrod; */
+    opacity: 1.0;
 }
 
 
@@ -37,7 +41,8 @@ a {
 
 .container{
     display: flex !important;
-    justify-content: space-around;
+    justify-content: center;
+    flex-flow: wrap;
 
 }
 
@@ -46,19 +51,58 @@ a {
     float: left;
     height: 100%;
     width: 50%;
-    color: white;
+    /* color: white; */
 }
 
 #bio {
-    background-image: url('.././assets/honeycomb_blur.png');
-    background-size: cover;
-    /* filter: blur(4px); */
+    /* background-image: url('.././assets/honeycomb_blur.png');
+    background-size: cover; */
 }
 
 h4 > a {
-    color: #e7bf43 !important;
+    font-weight: bold;
 }
 
-#bio-desc{
-    background-color: #f09941;
+div > ul{
+    list-style-type: none;
+}
+
+
+.bio {
+    /* background-color: #E77A18; */
+    background-color: white;
+}
+
+.portfolio {
+    background-color: wheat;
+}
+
+.skills {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.contact{
+    background-color: wheat;
+}
+
+.footer {
+    /* margin: auto auto 0 auto; */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    line-height: 50px;
+    width: 100%;
+    /* background-color: blue; */
+    color: black;
+}
+
+.footer > div > a {
+    text-decoration: none;
+    opacity: 0.7;
+}
+
+i {
+    padding: 10px;
 }

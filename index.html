@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
 
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
     <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css"> -->
@@ -41,16 +41,16 @@
         <li><a class="button" href="#page4">Page 4</a></li>
     </ul> -->
     <div id="fullpage">
-        <div class="section" data-anchor="page1" id="about">
+        <div class="section bio" data-anchor="page1" id="about">
             <div class="w3-container w3-center box" id="bio">
-                <h1 class="w3-padding-64">Isaac Steinberg</h1>
-                <img width="80%" src="./assets/profile.png" class="w3-circle w3-sepia" alt="profile image" style="max-width:250px;">
+                <h1 style="padding-top:50%;">Isaac Steinberg</h1>
+                <img width="80%" src="./assets/profile.png" class="w3-circle w3-grayscale-max" alt="profile image" style="max-width:250px;">
                 <h3>Software Developer</h3>
                 <h4>Software Developer for <a href="https://www.seq-technology.com/">SEQ Technology</a></h4>
                 <h4>Web Development Immersive <a href="https://generalassemb.ly/education/web-development-immersive">GA</a></h4>
                 <h4>Brandeis University <a href="https://www.brandeis.edu/now/2014/november/isaac-steinberg-wanders.html">Philosophy B.A. <em>magna cum laude</em></a></h4>
             </div>
-            <div class="box" id="bio-desc">
+            <div class="box">
                 <div class="w3-container w3-left-align" style="padding-top:50%;">
                     <h2>CONCISE CODE &amp; FUNCTIONAL ART</h2>
                     <p class="w3-padding-64">
@@ -59,11 +59,8 @@
                 </div>
             </div>
         </div>
-        <div class="section" data-anchor="page2" style="background-color: royalblue">
-            
-        </div>
-        <div class="section" data-anchor="page4">
-            <div class="slide" data-anchor="slide1" style="background-color: yellow"> Slide 1 </div>
+        <div class="section portfolio" data-anchor="page2">
+            <div class="slide" data-anchor="slide1"> Slide 1 </div>
             <div class="slide" data-anchor="slide2" class="box" style="background-color: orange"> Slide 2 </div>
             <div class="slide" data-anchor="slide3" style="background-color: orangered"> Slide 3 </div>
             <div class="slide" data-anchor="slide4">
@@ -75,7 +72,78 @@
                 </div>
             </div>
         </div>
-        <div class="section" data-anchor="page3" style="background-color: red">Some section</div>
+        <div class="section skills" data-anchor="page3">
+            <div class="container">
+                <div>
+                    <ul>
+                        <h3>LANGUAGES</h3>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>CSS3</li>
+                        <li>Ruby</li>
+                        <li>bash</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h3>FRAMEWORKS &amp; DATABASES</h3>
+                        <li>Node.js</li>
+                        <li>express</li>
+                        <li>React.js</li>
+                        <li>Angular</li>
+                        <li>electron.js</li>
+                        <li>Bootstrap</li>
+                        <li>TDD / mocha / jest</li>
+                        <li>Selenium / WebDriver</li>
+                        <li>Ruby-on-Rails</li>
+                        <li>Django / REST API</li>
+                        <li>Flask</li>
+                        <li>SQL (pSQL, mySQL, SQLite)</li>
+                        <li>NoSQL (mongoDB, Redis)</li>
+                        <li>Graph DBs</li>
+                        <li>Realtime DBs</li>
+                        <li>Docker</li>
+                        <li>AWS (EC2, Lambda, and S3)</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <h3>APPLICATIONS</h3>
+                        <li>Adobe Creative Cloud:</li>
+                        <li>Photoshop, InDesign, Illustrator</li>
+                        <li>Slack</li>
+                        <li>Trello</li>
+                        <li>Git</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+        <div class="section contact" data-anchor="page4">
+            Some section
+        </div>
+        <div class="footer">
+            <div style="float:left;font-size:20px;padding-left:20px;">
+                <a href="http://">IsaacS.Design</a>
+            </div>
+            <div style="float:right;padding-right:20px;">
+                <a href="https://github.com/philosophercode">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/isaacsteinberg/">
+                    <i class="fab fa-linkedin-in fa-2x"></i>
+                </a>
+                <a href="mailto:steinbergisaac@gmail.com">
+                    <i class="fas fa-at fa-2x"></i>
+                </a>
+                <a href="https://drive.google.com/file/d/1e0DHL7Y9p2iQN76ZoPAL6_qp03sydZjb/view">
+                    <i class="far fa-file-pdf fa-2x"></i>
+                </a>
+            </div>
+        </div>
     </div>
 </body>
 </html>

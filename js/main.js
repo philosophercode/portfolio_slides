@@ -6,6 +6,7 @@ $(document).ready(function() {
 		slidesNavigation: true,
 		// slidesNavPosition: 'top',
 		// fadingEffect: true,
-		// paddingBottom: '30px'
+		paddingBottom: '30px',
+		fixedElements: '#navbar, .footer',
 	});
 });
