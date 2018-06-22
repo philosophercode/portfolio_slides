@@ -6,7 +6,8 @@ $(document).ready(function() {
 		slidesNavigation: true,
 		// slidesNavPosition: 'top',
 		// fadingEffect: true,
-		paddingBottom: '30px',
+		paddingTop: '40px',
+		paddingBottom: '55px',
 		fixedElements: '#navbar, .footer',
 	});
 });
