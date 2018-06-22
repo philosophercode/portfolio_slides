@@ -7,7 +7,7 @@ $(document).ready(function() {
 		// slidesNavPosition: 'top',
 		// fadingEffect: true,
 		paddingTop: '40px',
-		paddingBottom: '55px',
+		// paddingBottom: '55px',
 		fixedElements: '#navbar, .footer',
 	});
 });
