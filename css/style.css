@@ -19,7 +19,7 @@
     text-transform: uppercase;
 }
 
-li > a {
+li>a {
     font-weight: 300;
     font-size: 18px;
     text-decoration: none;
@@ -27,27 +27,23 @@ li > a {
     opacity: 0.7;
 }
 
-.active > a {
+.active>a {
     font-weight: 900;
     /* text-shadow: 0px 0px 5px goldenrod; */
     opacity: 1.0;
 }
 
-
-.fp-slidesNav{
+.fp-slidesNav {
     display: flex;
     justify-content: space-around;
 }
 
-
-.container{
+.container {
     display: flex !important;
     justify-content: space-around;
     flex-flow: wrap;
     align-items: baseline;
-
 }
-
 
 .box {
     float: left;
@@ -61,21 +57,21 @@ li > a {
     background-size: cover; */
 }
 
-h4 > a {
+h4>a {
     font-weight: bold;
 }
 
-div > ul{
+div>ul {
     list-style-type: none;
 }
-
 
 .bio {
     /* background-color: #E77A18; */
     background-color: white;
 }
 
-.portfolio, .slide {
+.portfolio,
+.slide {
     background-color: rgb(247, 230, 198);
 }
 
@@ -85,10 +81,9 @@ div > ul{
     padding: 10px;
 }
 
-.contact{
+.contact {
     background-color: rgb(247, 230, 198);
 }
-
 
 .grid-container {
     display: grid;
@@ -109,26 +104,6 @@ div > ul{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer {
     /* margin: auto auto 0 auto; */
     position: absolute;
@@ -140,7 +115,7 @@ div > ul{
     color: black;
 }
 
-.footer > div > a {
+.footer>div>a {
     text-decoration: none;
     opacity: 0.7;
 }
@@ -149,25 +124,23 @@ i {
     padding: 10px;
 }
 
-
 .fp-prev {
     animation: pulseLeft 10s !important;
     border-color: transparent !important;
 }
+
 .fp-next {
     animation: pulseRight 10s !important;
     border-color: transparent !important;
 }
-  
+
 @keyframes pulseLeft {
     0% {
         border-color: transparent #001F3F transparent transparent;
     }
-
     25% {
         border-color: transparent;
     }
-    
     75% {
         border-color: transparent #001F3F transparent transparent;
     }
@@ -175,15 +148,14 @@ i {
         border-color: transparent;
     }
 }
+
 @keyframes pulseRight {
     0% {
         border-color: transparent transparent transparent #001F3F;
     }
-
     25% {
         border-color: transparent;
     }
-    
     75% {
         border-color: transparent transparent transparent #001F3F;
     }
