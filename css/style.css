@@ -1,5 +1,6 @@
 * {
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
     color: black;
 }
 
@@ -41,8 +42,9 @@ li > a {
 
 .container{
     display: flex !important;
-    justify-content: center;
+    justify-content: space-around;
     flex-flow: wrap;
+    align-items: baseline;
 
 }
 
@@ -73,7 +75,7 @@ div > ul{
     background-color: white;
 }
 
-.portfolio {
+.portfolio, .slide {
     background-color: rgb(247, 230, 198);
 }
 
@@ -84,8 +86,48 @@ div > ul{
 }
 
 .contact{
-    background-color: rgb(247, 230, 198);;
+    background-color: rgb(247, 230, 198);
 }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 100%;
+    height: 80%;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: rgb(247, 230, 198);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer {
     /* margin: auto auto 0 auto; */
@@ -94,7 +136,7 @@ div > ul{
     bottom: 0;
     line-height: 50px;
     width: 100%;
-    /* background-color: blue; */
+    background-color: transparent !important;
     color: black;
 }
 
@@ -105,4 +147,47 @@ div > ul{
 
 i {
     padding: 10px;
+}
+
+
+.fp-prev {
+    animation: pulseLeft 10s !important;
+    border-color: transparent !important;
+}
+.fp-next {
+    animation: pulseRight 10s !important;
+    border-color: transparent !important;
+}
+  
+@keyframes pulseLeft {
+    0% {
+        border-color: transparent #001F3F transparent transparent;
+    }
+
+    25% {
+        border-color: transparent;
+    }
+    
+    75% {
+        border-color: transparent #001F3F transparent transparent;
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+@keyframes pulseRight {
+    0% {
+        border-color: transparent transparent transparent #001F3F;
+    }
+
+    25% {
+        border-color: transparent;
+    }
+    
+    75% {
+        border-color: transparent transparent transparent #001F3F;
+    }
+    100% {
+        border-color: transparent;
+    }
 }
