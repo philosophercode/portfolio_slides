@@ -11,3 +11,4 @@ $(document).ready(function () {
 		fixedElements: '#navbar, .footer',
 	});
 });
+
